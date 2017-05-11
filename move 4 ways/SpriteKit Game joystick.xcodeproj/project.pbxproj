@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		225BB6B91EBA4C7900791B5B /* Samomo-Right-walk-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 225BB6B31EBA4C7900791B5B /* Samomo-Right-walk-1.png */; };
+		225BB6BA1EBA4C7900791B5B /* Samomo-Right-walk-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 225BB6B41EBA4C7900791B5B /* Samomo-Right-walk-2.png */; };
+		225BB6BB1EBA4C7900791B5B /* Samomo-Right-walk-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 225BB6B51EBA4C7900791B5B /* Samomo-Right-walk-3.png */; };
+		225BB6BE1EBA4C7900791B5B /* Samomo-Right-walk-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 225BB6B81EBA4C7900791B5B /* Samomo-Right-walk-6.png */; };
+		225BB6C11EBA4E8D00791B5B /* Samomo-Right-walk-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 225BB6BF1EBA4E8D00791B5B /* Samomo-Right-walk-4.png */; };
+		225BB6C21EBA4E8D00791B5B /* Samomo-Right-walk-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 225BB6C01EBA4E8D00791B5B /* Samomo-Right-walk-5.png */; };
+		225BB6C91EBA4FFA00791B5B /* Samomo-Left-walk-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 225BB6C31EBA4FFA00791B5B /* Samomo-Left-walk-1.png */; };
+		225BB6CA1EBA4FFA00791B5B /* Samomo-Left-walk-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 225BB6C41EBA4FFA00791B5B /* Samomo-Left-walk-2.png */; };
+		225BB6CB1EBA4FFA00791B5B /* Samomo-Left-walk-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 225BB6C51EBA4FFA00791B5B /* Samomo-Left-walk-3.png */; };
+		225BB6CC1EBA4FFA00791B5B /* Samomo-Left-walk-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 225BB6C61EBA4FFA00791B5B /* Samomo-Left-walk-4.png */; };
+		225BB6CD1EBA4FFA00791B5B /* Samomo-Left-walk-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 225BB6C71EBA4FFA00791B5B /* Samomo-Left-walk-5.png */; };
+		225BB6CE1EBA4FFA00791B5B /* Samomo-Left-walk-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 225BB6C81EBA4FFA00791B5B /* Samomo-Left-walk-6.png */; };
+		225BB6D51EBA506E00791B5B /* Samomo-Walk-back-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 225BB6CF1EBA506E00791B5B /* Samomo-Walk-back-1.png */; };
+		225BB6D61EBA506E00791B5B /* Samomo-Walk-back-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 225BB6D01EBA506E00791B5B /* Samomo-Walk-back-2.png */; };
+		225BB6D71EBA506E00791B5B /* Samomo-Walk-back-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 225BB6D11EBA506E00791B5B /* Samomo-Walk-back-3.png */; };
+		225BB6D81EBA506E00791B5B /* Samomo-Walk-back-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 225BB6D21EBA506E00791B5B /* Samomo-Walk-back-4.png */; };
+		225BB6D91EBA506E00791B5B /* Samomo-Walk-back-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 225BB6D31EBA506E00791B5B /* Samomo-Walk-back-5.png */; };
+		225BB6DA1EBA506E00791B5B /* Samomo-Walk-back-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 225BB6D41EBA506E00791B5B /* Samomo-Walk-back-6.png */; };
+		225F96111EB59C3600AC891B /* Samomo-Front-tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 225F960C1EB59C3600AC891B /* Samomo-Front-tail.png */; };
+		225F96131EB5A43100AC891B /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = 225F96121EB5A43100AC891B /* tree.png */; };
+		2260BD521EBEDE7300F3813F /* AnimatingSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260BD511EBEDE7300F3813F /* AnimatingSprite.swift */; };
+		2260BD591EBEE4B900F3813F /* Samomo-Walk-front-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2260BD531EBEE4B900F3813F /* Samomo-Walk-front-1.png */; };
+		2260BD5A1EBEE4B900F3813F /* Samomo-Walk-front-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2260BD541EBEE4B900F3813F /* Samomo-Walk-front-2.png */; };
+		2260BD5B1EBEE4B900F3813F /* Samomo-Walk-front-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2260BD551EBEE4B900F3813F /* Samomo-Walk-front-3.png */; };
+		2260BD5C1EBEE4B900F3813F /* Samomo-Walk-front-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2260BD561EBEE4B900F3813F /* Samomo-Walk-front-4.png */; };
+		2260BD5D1EBEE4B900F3813F /* Samomo-Walk-front-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2260BD571EBEE4B900F3813F /* Samomo-Walk-front-5.png */; };
+		2260BD5E1EBEE4B900F3813F /* Samomo-Walk-front-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2260BD581EBEE4B900F3813F /* Samomo-Walk-front-6.png */; };
+		2260BD631EBFADD400F3813F /* Samomo-Front-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2260BD5F1EBFADD400F3813F /* Samomo-Front-1.png */; };
+		2260BD641EBFADD400F3813F /* Samomo-Front-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2260BD601EBFADD400F3813F /* Samomo-Front-2.png */; };
+		2260BD651EBFADD400F3813F /* Samomo-Front-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2260BD611EBFADD400F3813F /* Samomo-Front-3.png */; };
+		2260BD661EBFADD400F3813F /* Samomo-Front-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2260BD621EBFADD400F3813F /* Samomo-Front-4.png */; };
+		227222331EB0382C004470FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227222321EB0382C004470FA /* AppDelegate.swift */; };
+		227222371EB0382C004470FA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 227222361EB0382C004470FA /* Actions.sks */; };
+		227222391EB0382C004470FA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227222381EB0382C004470FA /* GameScene.swift */; };
+		2272223B1EB0382C004470FA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2272223A1EB0382C004470FA /* GameViewController.swift */; };
+		2272223E1EB0382C004470FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2272223C1EB0382C004470FA /* Main.storyboard */; };
+		227222401EB0382C004470FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2272223F1EB0382C004470FA /* Assets.xcassets */; };
+		227222431EB0382C004470FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227222411EB0382C004470FA /* LaunchScreen.storyboard */; };
+		227222591EB03DA3004470FA /* JDGamePaddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227222581EB03DA2004470FA /* JDGamePaddle.swift */; };
+		2272228A1EB044FE004470FA /* Samomo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227222891EB044FE004470FA /* Samomo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		225BB6B31EBA4C7900791B5B /* Samomo-Right-walk-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Right-walk-1.png"; sourceTree = "<group>"; };
+		225BB6B41EBA4C7900791B5B /* Samomo-Right-walk-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Right-walk-2.png"; sourceTree = "<group>"; };
+		225BB6B51EBA4C7900791B5B /* Samomo-Right-walk-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Right-walk-3.png"; sourceTree = "<group>"; };
+		225BB6B81EBA4C7900791B5B /* Samomo-Right-walk-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Right-walk-6.png"; sourceTree = "<group>"; };
+		225BB6BF1EBA4E8D00791B5B /* Samomo-Right-walk-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Right-walk-4.png"; sourceTree = "<group>"; };
+		225BB6C01EBA4E8D00791B5B /* Samomo-Right-walk-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Right-walk-5.png"; sourceTree = "<group>"; };
+		225BB6C31EBA4FFA00791B5B /* Samomo-Left-walk-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Left-walk-1.png"; sourceTree = "<group>"; };
+		225BB6C41EBA4FFA00791B5B /* Samomo-Left-walk-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Left-walk-2.png"; sourceTree = "<group>"; };
+		225BB6C51EBA4FFA00791B5B /* Samomo-Left-walk-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Left-walk-3.png"; sourceTree = "<group>"; };
+		225BB6C61EBA4FFA00791B5B /* Samomo-Left-walk-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Left-walk-4.png"; sourceTree = "<group>"; };
+		225BB6C71EBA4FFA00791B5B /* Samomo-Left-walk-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Left-walk-5.png"; sourceTree = "<group>"; };
+		225BB6C81EBA4FFA00791B5B /* Samomo-Left-walk-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Left-walk-6.png"; sourceTree = "<group>"; };
+		225BB6CF1EBA506E00791B5B /* Samomo-Walk-back-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-back-1.png"; sourceTree = "<group>"; };
+		225BB6D01EBA506E00791B5B /* Samomo-Walk-back-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-back-2.png"; sourceTree = "<group>"; };
+		225BB6D11EBA506E00791B5B /* Samomo-Walk-back-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-back-3.png"; sourceTree = "<group>"; };
+		225BB6D21EBA506E00791B5B /* Samomo-Walk-back-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-back-4.png"; sourceTree = "<group>"; };
+		225BB6D31EBA506E00791B5B /* Samomo-Walk-back-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-back-5.png"; sourceTree = "<group>"; };
+		225BB6D41EBA506E00791B5B /* Samomo-Walk-back-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-back-6.png"; sourceTree = "<group>"; };
+		225F960C1EB59C3600AC891B /* Samomo-Front-tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Front-tail.png"; sourceTree = "<group>"; };
+		225F96121EB5A43100AC891B /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.png; sourceTree = "<group>"; };
+		2260BD511EBEDE7300F3813F /* AnimatingSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatingSprite.swift; sourceTree = "<group>"; };
+		2260BD531EBEE4B900F3813F /* Samomo-Walk-front-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-front-1.png"; sourceTree = "<group>"; };
+		2260BD541EBEE4B900F3813F /* Samomo-Walk-front-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-front-2.png"; sourceTree = "<group>"; };
+		2260BD551EBEE4B900F3813F /* Samomo-Walk-front-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-front-3.png"; sourceTree = "<group>"; };
+		2260BD561EBEE4B900F3813F /* Samomo-Walk-front-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-front-4.png"; sourceTree = "<group>"; };
+		2260BD571EBEE4B900F3813F /* Samomo-Walk-front-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-front-5.png"; sourceTree = "<group>"; };
+		2260BD581EBEE4B900F3813F /* Samomo-Walk-front-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-front-6.png"; sourceTree = "<group>"; };
+		2260BD5F1EBFADD400F3813F /* Samomo-Front-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Front-1.png"; sourceTree = "<group>"; };
+		2260BD601EBFADD400F3813F /* Samomo-Front-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Front-2.png"; sourceTree = "<group>"; };
+		2260BD611EBFADD400F3813F /* Samomo-Front-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Front-3.png"; sourceTree = "<group>"; };
+		2260BD621EBFADD400F3813F /* Samomo-Front-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Front-4.png"; sourceTree = "<group>"; };
+		2272222F1EB0382C004470FA /* SpriteKit Game joystick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpriteKit Game joystick.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		227222321EB0382C004470FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		227222361EB0382C004470FA /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		227222381EB0382C004470FA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2272223A1EB0382C004470FA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2272223D1EB0382C004470FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2272223F1EB0382C004470FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		227222421EB0382C004470FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		227222441EB0382C004470FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227222581EB03DA2004470FA /* JDGamePaddle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDGamePaddle.swift; sourceTree = "<group>"; };
+		227222891EB044FE004470FA /* Samomo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Samomo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2272222C1EB0382C004470FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		227222261EB0382C004470FA = {
+			isa = PBXGroup;
+			children = (
+				227222311EB0382C004470FA /* SpriteKit Game joystick */,
+				227222301EB0382C004470FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		227222301EB0382C004470FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2272222F1EB0382C004470FA /* SpriteKit Game joystick.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227222311EB0382C004470FA /* SpriteKit Game joystick */ = {
+			isa = PBXGroup;
+			children = (
+				2272228B1EB0451B004470FA /* Samomo.atlas */,
+				227222321EB0382C004470FA /* AppDelegate.swift */,
+				227222361EB0382C004470FA /* Actions.sks */,
+				227222381EB0382C004470FA /* GameScene.swift */,
+				2272223A1EB0382C004470FA /* GameViewController.swift */,
+				2272223C1EB0382C004470FA /* Main.storyboard */,
+				2272223F1EB0382C004470FA /* Assets.xcassets */,
+				227222411EB0382C004470FA /* LaunchScreen.storyboard */,
+				227222441EB0382C004470FA /* Info.plist */,
+				227222581EB03DA2004470FA /* JDGamePaddle.swift */,
+				227222891EB044FE004470FA /* Samomo.swift */,
+				2260BD511EBEDE7300F3813F /* AnimatingSprite.swift */,
+			);
+			path = "SpriteKit Game joystick";
+			sourceTree = "<group>";
+		};
+		2272228B1EB0451B004470FA /* Samomo.atlas */ = {
+			isa = PBXGroup;
+			children = (
+				2260BD5F1EBFADD400F3813F /* Samomo-Front-1.png */,
+				2260BD601EBFADD400F3813F /* Samomo-Front-2.png */,
+				2260BD611EBFADD400F3813F /* Samomo-Front-3.png */,
+				2260BD621EBFADD400F3813F /* Samomo-Front-4.png */,
+				2260BD531EBEE4B900F3813F /* Samomo-Walk-front-1.png */,
+				2260BD541EBEE4B900F3813F /* Samomo-Walk-front-2.png */,
+				2260BD551EBEE4B900F3813F /* Samomo-Walk-front-3.png */,
+				2260BD561EBEE4B900F3813F /* Samomo-Walk-front-4.png */,
+				2260BD571EBEE4B900F3813F /* Samomo-Walk-front-5.png */,
+				2260BD581EBEE4B900F3813F /* Samomo-Walk-front-6.png */,
+				225BB6CF1EBA506E00791B5B /* Samomo-Walk-back-1.png */,
+				225BB6D01EBA506E00791B5B /* Samomo-Walk-back-2.png */,
+				225BB6D11EBA506E00791B5B /* Samomo-Walk-back-3.png */,
+				225BB6D21EBA506E00791B5B /* Samomo-Walk-back-4.png */,
+				225BB6D31EBA506E00791B5B /* Samomo-Walk-back-5.png */,
+				225BB6D41EBA506E00791B5B /* Samomo-Walk-back-6.png */,
+				225BB6B31EBA4C7900791B5B /* Samomo-Right-walk-1.png */,
+				225BB6B41EBA4C7900791B5B /* Samomo-Right-walk-2.png */,
+				225BB6B51EBA4C7900791B5B /* Samomo-Right-walk-3.png */,
+				225BB6BF1EBA4E8D00791B5B /* Samomo-Right-walk-4.png */,
+				225BB6C01EBA4E8D00791B5B /* Samomo-Right-walk-5.png */,
+				225BB6B81EBA4C7900791B5B /* Samomo-Right-walk-6.png */,
+				225BB6C31EBA4FFA00791B5B /* Samomo-Left-walk-1.png */,
+				225BB6C41EBA4FFA00791B5B /* Samomo-Left-walk-2.png */,
+				225BB6C51EBA4FFA00791B5B /* Samomo-Left-walk-3.png */,
+				225BB6C61EBA4FFA00791B5B /* Samomo-Left-walk-4.png */,
+				225BB6C71EBA4FFA00791B5B /* Samomo-Left-walk-5.png */,
+				225BB6C81EBA4FFA00791B5B /* Samomo-Left-walk-6.png */,
+				225F96121EB5A43100AC891B /* tree.png */,
+				225F960C1EB59C3600AC891B /* Samomo-Front-tail.png */,
+			);
+			name = Samomo.atlas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2272222E1EB0382C004470FA /* SpriteKit Game joystick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227222471EB0382C004470FA /* Build configuration list for PBXNativeTarget "SpriteKit Game joystick" */;
+			buildPhases = (
+				2272222B1EB0382C004470FA /* Sources */,
+				2272222C1EB0382C004470FA /* Frameworks */,
+				2272222D1EB0382C004470FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpriteKit Game joystick";
+			productName = "SpriteKit Game joystick";
+			productReference = 2272222F1EB0382C004470FA /* SpriteKit Game joystick.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		227222271EB0382C004470FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "HSIAO JENHAO";
+				TargetAttributes = {
+					2272222E1EB0382C004470FA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 982ZFCY4EE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2272222A1EB0382C004470FA /* Build configuration list for PBXProject "SpriteKit Game joystick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 227222261EB0382C004470FA;
+			productRefGroup = 227222301EB0382C004470FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2272222E1EB0382C004470FA /* SpriteKit Game joystick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2272222D1EB0382C004470FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2260BD5D1EBEE4B900F3813F /* Samomo-Walk-front-5.png in Resources */,
+				225BB6CE1EBA4FFA00791B5B /* Samomo-Left-walk-6.png in Resources */,
+				225BB6CB1EBA4FFA00791B5B /* Samomo-Left-walk-3.png in Resources */,
+				225BB6BE1EBA4C7900791B5B /* Samomo-Right-walk-6.png in Resources */,
+				225BB6D51EBA506E00791B5B /* Samomo-Walk-back-1.png in Resources */,
+				2260BD5E1EBEE4B900F3813F /* Samomo-Walk-front-6.png in Resources */,
+				2260BD641EBFADD400F3813F /* Samomo-Front-2.png in Resources */,
+				225BB6BB1EBA4C7900791B5B /* Samomo-Right-walk-3.png in Resources */,
+				2260BD631EBFADD400F3813F /* Samomo-Front-1.png in Resources */,
+				225BB6D61EBA506E00791B5B /* Samomo-Walk-back-2.png in Resources */,
+				225F96131EB5A43100AC891B /* tree.png in Resources */,
+				225F96111EB59C3600AC891B /* Samomo-Front-tail.png in Resources */,
+				2260BD5C1EBEE4B900F3813F /* Samomo-Walk-front-4.png in Resources */,
+				2272223E1EB0382C004470FA /* Main.storyboard in Resources */,
+				225BB6BA1EBA4C7900791B5B /* Samomo-Right-walk-2.png in Resources */,
+				225BB6C11EBA4E8D00791B5B /* Samomo-Right-walk-4.png in Resources */,
+				2260BD591EBEE4B900F3813F /* Samomo-Walk-front-1.png in Resources */,
+				225BB6CA1EBA4FFA00791B5B /* Samomo-Left-walk-2.png in Resources */,
+				227222401EB0382C004470FA /* Assets.xcassets in Resources */,
+				225BB6CD1EBA4FFA00791B5B /* Samomo-Left-walk-5.png in Resources */,
+				2260BD651EBFADD400F3813F /* Samomo-Front-3.png in Resources */,
+				227222431EB0382C004470FA /* LaunchScreen.storyboard in Resources */,
+				227222371EB0382C004470FA /* Actions.sks in Resources */,
+				225BB6DA1EBA506E00791B5B /* Samomo-Walk-back-6.png in Resources */,
+				2260BD5A1EBEE4B900F3813F /* Samomo-Walk-front-2.png in Resources */,
+				225BB6D71EBA506E00791B5B /* Samomo-Walk-back-3.png in Resources */,
+				2260BD661EBFADD400F3813F /* Samomo-Front-4.png in Resources */,
+				225BB6D81EBA506E00791B5B /* Samomo-Walk-back-4.png in Resources */,
+				2260BD5B1EBEE4B900F3813F /* Samomo-Walk-front-3.png in Resources */,
+				225BB6B91EBA4C7900791B5B /* Samomo-Right-walk-1.png in Resources */,
+				225BB6C91EBA4FFA00791B5B /* Samomo-Left-walk-1.png in Resources */,
+				225BB6D91EBA506E00791B5B /* Samomo-Walk-back-5.png in Resources */,
+				225BB6CC1EBA4FFA00791B5B /* Samomo-Left-walk-4.png in Resources */,
+				225BB6C21EBA4E8D00791B5B /* Samomo-Right-walk-5.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2272222B1EB0382C004470FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2272228A1EB044FE004470FA /* Samomo.swift in Sources */,
+				227222391EB0382C004470FA /* GameScene.swift in Sources */,
+				2272223B1EB0382C004470FA /* GameViewController.swift in Sources */,
+				2260BD521EBEDE7300F3813F /* AnimatingSprite.swift in Sources */,
+				227222331EB0382C004470FA /* AppDelegate.swift in Sources */,
+				227222591EB03DA3004470FA /* JDGamePaddle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2272223C1EB0382C004470FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2272223D1EB0382C004470FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		227222411EB0382C004470FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227222421EB0382C004470FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		227222451EB0382C004470FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		227222461EB0382C004470FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		227222481EB0382C004470FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 982ZFCY4EE;
+				INFOPLIST_FILE = "SpriteKit Game joystick/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jenaho.SpriteKit-Game-joystick";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		227222491EB0382C004470FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 982ZFCY4EE;
+				INFOPLIST_FILE = "SpriteKit Game joystick/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jenaho.SpriteKit-Game-joystick";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2272222A1EB0382C004470FA /* Build configuration list for PBXProject "SpriteKit Game joystick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227222451EB0382C004470FA /* Debug */,
+				227222461EB0382C004470FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227222471EB0382C004470FA /* Build configuration list for PBXNativeTarget "SpriteKit Game joystick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227222481EB0382C004470FA /* Debug */,
+				227222491EB0382C004470FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 227222271EB0382C004470FA /* Project object */;
+}
