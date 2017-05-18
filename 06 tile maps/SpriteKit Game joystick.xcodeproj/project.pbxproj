@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22303A1E1ECCC7A000B9D186 /* Samomo-stand-Back-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 22303A0E1ECCC7A000B9D186 /* Samomo-stand-Back-1.png */; };
+		22303A1F1ECCC7A000B9D186 /* Samomo-stand-Back-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 22303A0F1ECCC7A000B9D186 /* Samomo-stand-Back-2.png */; };
+		22303A201ECCC7A000B9D186 /* Samomo-stand-Back-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 22303A101ECCC7A000B9D186 /* Samomo-stand-Back-3.png */; };
+		22303A211ECCC7A000B9D186 /* Samomo-stand-Back-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 22303A111ECCC7A000B9D186 /* Samomo-stand-Back-4.png */; };
+		22303A221ECCC7A000B9D186 /* Samomo-stand-Front-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 22303A121ECCC7A000B9D186 /* Samomo-stand-Front-1.png */; };
+		22303A231ECCC7A000B9D186 /* Samomo-stand-Front-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 22303A131ECCC7A000B9D186 /* Samomo-stand-Front-2.png */; };
+		22303A241ECCC7A000B9D186 /* Samomo-stand-Front-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 22303A141ECCC7A000B9D186 /* Samomo-stand-Front-3.png */; };
+		22303A251ECCC7A000B9D186 /* Samomo-stand-Front-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 22303A151ECCC7A000B9D186 /* Samomo-stand-Front-4.png */; };
+		22303A261ECCC7A000B9D186 /* Samomo-stand-left-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 22303A161ECCC7A000B9D186 /* Samomo-stand-left-1.png */; };
+		22303A271ECCC7A000B9D186 /* Samomo-stand-left-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 22303A171ECCC7A000B9D186 /* Samomo-stand-left-2.png */; };
+		22303A281ECCC7A000B9D186 /* Samomo-stand-left-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 22303A181ECCC7A000B9D186 /* Samomo-stand-left-3.png */; };
+		22303A291ECCC7A000B9D186 /* Samomo-stand-left-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 22303A191ECCC7A000B9D186 /* Samomo-stand-left-4.png */; };
+		22303A2A1ECCC7A000B9D186 /* Samomo-stand-Right-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 22303A1A1ECCC7A000B9D186 /* Samomo-stand-Right-1.png */; };
+		22303A2B1ECCC7A000B9D186 /* Samomo-stand-Right-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 22303A1B1ECCC7A000B9D186 /* Samomo-stand-Right-2.png */; };
+		22303A2C1ECCC7A000B9D186 /* Samomo-stand-Right-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 22303A1C1ECCC7A000B9D186 /* Samomo-stand-Right-3.png */; };
+		22303A2D1ECCC7A000B9D186 /* Samomo-stand-Right-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 22303A1D1ECCC7A000B9D186 /* Samomo-stand-Right-4.png */; };
+		225036C71ECD377600B59019 /* Samomo-Walk-Right-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036C11ECD377600B59019 /* Samomo-Walk-Right-1.png */; };
+		225036C81ECD377600B59019 /* Samomo-Walk-Right-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036C21ECD377600B59019 /* Samomo-Walk-Right-2.png */; };
+		225036C91ECD377600B59019 /* Samomo-Walk-Right-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036C31ECD377600B59019 /* Samomo-Walk-Right-3.png */; };
+		225036CA1ECD377600B59019 /* Samomo-Walk-Right-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036C41ECD377600B59019 /* Samomo-Walk-Right-4.png */; };
+		225036CB1ECD377600B59019 /* Samomo-Walk-Right-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036C51ECD377600B59019 /* Samomo-Walk-Right-5.png */; };
+		225036CC1ECD377600B59019 /* Samomo-Walk-Right-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036C61ECD377600B59019 /* Samomo-Walk-Right-6.png */; };
+		225036D31ECD377F00B59019 /* Samomo-Walk-Left-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036CD1ECD377F00B59019 /* Samomo-Walk-Left-1.png */; };
+		225036D41ECD377F00B59019 /* Samomo-Walk-Left-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036CE1ECD377F00B59019 /* Samomo-Walk-Left-2.png */; };
+		225036D51ECD377F00B59019 /* Samomo-Walk-Left-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036CF1ECD377F00B59019 /* Samomo-Walk-Left-3.png */; };
+		225036D61ECD377F00B59019 /* Samomo-Walk-Left-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036D01ECD377F00B59019 /* Samomo-Walk-Left-4.png */; };
+		225036D71ECD377F00B59019 /* Samomo-Walk-Left-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036D11ECD377F00B59019 /* Samomo-Walk-Left-5.png */; };
+		225036D81ECD377F00B59019 /* Samomo-Walk-Left-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036D21ECD377F00B59019 /* Samomo-Walk-Left-6.png */; };
+		225036DF1ECD378900B59019 /* Samomo-Walk-front-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036D91ECD378900B59019 /* Samomo-Walk-front-1.png */; };
+		225036E01ECD378900B59019 /* Samomo-Walk-front-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036DA1ECD378900B59019 /* Samomo-Walk-front-2.png */; };
+		225036E11ECD378900B59019 /* Samomo-Walk-front-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036DB1ECD378900B59019 /* Samomo-Walk-front-3.png */; };
+		225036E21ECD378900B59019 /* Samomo-Walk-front-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036DC1ECD378900B59019 /* Samomo-Walk-front-4.png */; };
+		225036E31ECD378900B59019 /* Samomo-Walk-front-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036DD1ECD378900B59019 /* Samomo-Walk-front-5.png */; };
+		225036E41ECD378900B59019 /* Samomo-Walk-front-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036DE1ECD378900B59019 /* Samomo-Walk-front-6.png */; };
+		225036EB1ECD379000B59019 /* Samomo-Walk-back-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036E51ECD379000B59019 /* Samomo-Walk-back-1.png */; };
+		225036EC1ECD379000B59019 /* Samomo-Walk-back-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036E61ECD379000B59019 /* Samomo-Walk-back-2.png */; };
+		225036ED1ECD379000B59019 /* Samomo-Walk-back-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036E71ECD379000B59019 /* Samomo-Walk-back-3.png */; };
+		225036EE1ECD379000B59019 /* Samomo-Walk-back-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036E81ECD379000B59019 /* Samomo-Walk-back-4.png */; };
+		225036EF1ECD379000B59019 /* Samomo-Walk-back-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036E91ECD379000B59019 /* Samomo-Walk-back-5.png */; };
+		225036F01ECD379000B59019 /* Samomo-Walk-back-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 225036EA1ECD379000B59019 /* Samomo-Walk-back-6.png */; };
+		225F96111EB59C3600AC891B /* Samomo-Front-tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 225F960C1EB59C3600AC891B /* Samomo-Front-tail.png */; };
+		225F96131EB5A43100AC891B /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = 225F96121EB5A43100AC891B /* tree.png */; };
+		227222331EB0382C004470FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227222321EB0382C004470FA /* AppDelegate.swift */; };
+		227222371EB0382C004470FA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 227222361EB0382C004470FA /* Actions.sks */; };
+		227222391EB0382C004470FA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227222381EB0382C004470FA /* GameScene.swift */; };
+		2272223B1EB0382C004470FA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2272223A1EB0382C004470FA /* GameViewController.swift */; };
+		2272223E1EB0382C004470FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2272223C1EB0382C004470FA /* Main.storyboard */; };
+		227222431EB0382C004470FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227222411EB0382C004470FA /* LaunchScreen.storyboard */; };
+		227222591EB03DA3004470FA /* JDGamePaddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227222581EB03DA2004470FA /* JDGamePaddle.swift */; };
+		2272228A1EB044FE004470FA /* Samomo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227222891EB044FE004470FA /* Samomo.swift */; };
+		9B2BAE061EC33E5C007A9FA4 /* MyTileSetOne.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9B2BAE051EC33E5C007A9FA4 /* MyTileSetOne.sks */; };
+		9B2BAE091EC33EAD007A9FA4 /* MyTileSetOne.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9B2BAE071EC33EAD007A9FA4 /* MyTileSetOne.sks */; };
+		9B2BAE0A1EC33EAD007A9FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2BAE081EC33EAD007A9FA4 /* Assets.xcassets */; };
+		9B53CC461EC4A41A009A055E /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9B53CC451EC4A41A009A055E /* MyScene.sks */; };
+		9B53CC481EC4A53C009A055E /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B53CC471EC4A53C009A055E /* Direction.swift */; };
+		9B7148751EC9F3E4003582EC /* TileSetLevel00.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9B7148741EC9F3E4003582EC /* TileSetLevel00.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22303A0E1ECCC7A000B9D186 /* Samomo-stand-Back-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-stand-Back-1.png"; sourceTree = "<group>"; };
+		22303A0F1ECCC7A000B9D186 /* Samomo-stand-Back-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-stand-Back-2.png"; sourceTree = "<group>"; };
+		22303A101ECCC7A000B9D186 /* Samomo-stand-Back-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-stand-Back-3.png"; sourceTree = "<group>"; };
+		22303A111ECCC7A000B9D186 /* Samomo-stand-Back-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-stand-Back-4.png"; sourceTree = "<group>"; };
+		22303A121ECCC7A000B9D186 /* Samomo-stand-Front-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-stand-Front-1.png"; sourceTree = "<group>"; };
+		22303A131ECCC7A000B9D186 /* Samomo-stand-Front-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-stand-Front-2.png"; sourceTree = "<group>"; };
+		22303A141ECCC7A000B9D186 /* Samomo-stand-Front-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-stand-Front-3.png"; sourceTree = "<group>"; };
+		22303A151ECCC7A000B9D186 /* Samomo-stand-Front-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-stand-Front-4.png"; sourceTree = "<group>"; };
+		22303A161ECCC7A000B9D186 /* Samomo-stand-left-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-stand-left-1.png"; sourceTree = "<group>"; };
+		22303A171ECCC7A000B9D186 /* Samomo-stand-left-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-stand-left-2.png"; sourceTree = "<group>"; };
+		22303A181ECCC7A000B9D186 /* Samomo-stand-left-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-stand-left-3.png"; sourceTree = "<group>"; };
+		22303A191ECCC7A000B9D186 /* Samomo-stand-left-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-stand-left-4.png"; sourceTree = "<group>"; };
+		22303A1A1ECCC7A000B9D186 /* Samomo-stand-Right-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-stand-Right-1.png"; sourceTree = "<group>"; };
+		22303A1B1ECCC7A000B9D186 /* Samomo-stand-Right-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-stand-Right-2.png"; sourceTree = "<group>"; };
+		22303A1C1ECCC7A000B9D186 /* Samomo-stand-Right-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-stand-Right-3.png"; sourceTree = "<group>"; };
+		22303A1D1ECCC7A000B9D186 /* Samomo-stand-Right-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-stand-Right-4.png"; sourceTree = "<group>"; };
+		225036C11ECD377600B59019 /* Samomo-Walk-Right-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-Right-1.png"; sourceTree = "<group>"; };
+		225036C21ECD377600B59019 /* Samomo-Walk-Right-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-Right-2.png"; sourceTree = "<group>"; };
+		225036C31ECD377600B59019 /* Samomo-Walk-Right-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-Right-3.png"; sourceTree = "<group>"; };
+		225036C41ECD377600B59019 /* Samomo-Walk-Right-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-Right-4.png"; sourceTree = "<group>"; };
+		225036C51ECD377600B59019 /* Samomo-Walk-Right-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-Right-5.png"; sourceTree = "<group>"; };
+		225036C61ECD377600B59019 /* Samomo-Walk-Right-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-Right-6.png"; sourceTree = "<group>"; };
+		225036CD1ECD377F00B59019 /* Samomo-Walk-Left-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-Left-1.png"; sourceTree = "<group>"; };
+		225036CE1ECD377F00B59019 /* Samomo-Walk-Left-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-Left-2.png"; sourceTree = "<group>"; };
+		225036CF1ECD377F00B59019 /* Samomo-Walk-Left-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-Left-3.png"; sourceTree = "<group>"; };
+		225036D01ECD377F00B59019 /* Samomo-Walk-Left-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-Left-4.png"; sourceTree = "<group>"; };
+		225036D11ECD377F00B59019 /* Samomo-Walk-Left-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-Left-5.png"; sourceTree = "<group>"; };
+		225036D21ECD377F00B59019 /* Samomo-Walk-Left-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-Left-6.png"; sourceTree = "<group>"; };
+		225036D91ECD378900B59019 /* Samomo-Walk-front-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-front-1.png"; sourceTree = "<group>"; };
+		225036DA1ECD378900B59019 /* Samomo-Walk-front-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-front-2.png"; sourceTree = "<group>"; };
+		225036DB1ECD378900B59019 /* Samomo-Walk-front-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-front-3.png"; sourceTree = "<group>"; };
+		225036DC1ECD378900B59019 /* Samomo-Walk-front-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-front-4.png"; sourceTree = "<group>"; };
+		225036DD1ECD378900B59019 /* Samomo-Walk-front-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-front-5.png"; sourceTree = "<group>"; };
+		225036DE1ECD378900B59019 /* Samomo-Walk-front-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-front-6.png"; sourceTree = "<group>"; };
+		225036E51ECD379000B59019 /* Samomo-Walk-back-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-back-1.png"; sourceTree = "<group>"; };
+		225036E61ECD379000B59019 /* Samomo-Walk-back-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-back-2.png"; sourceTree = "<group>"; };
+		225036E71ECD379000B59019 /* Samomo-Walk-back-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-back-3.png"; sourceTree = "<group>"; };
+		225036E81ECD379000B59019 /* Samomo-Walk-back-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-back-4.png"; sourceTree = "<group>"; };
+		225036E91ECD379000B59019 /* Samomo-Walk-back-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-back-5.png"; sourceTree = "<group>"; };
+		225036EA1ECD379000B59019 /* Samomo-Walk-back-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Walk-back-6.png"; sourceTree = "<group>"; };
+		225F960C1EB59C3600AC891B /* Samomo-Front-tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Samomo-Front-tail.png"; sourceTree = "<group>"; };
+		225F96121EB5A43100AC891B /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.png; sourceTree = "<group>"; };
+		2272222F1EB0382C004470FA /* SpriteKit Game joystick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpriteKit Game joystick.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		227222321EB0382C004470FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		227222361EB0382C004470FA /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		227222381EB0382C004470FA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2272223A1EB0382C004470FA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2272223D1EB0382C004470FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		227222421EB0382C004470FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		227222441EB0382C004470FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227222581EB03DA2004470FA /* JDGamePaddle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDGamePaddle.swift; sourceTree = "<group>"; };
+		227222891EB044FE004470FA /* Samomo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Samomo.swift; sourceTree = "<group>"; };
+		9B2BAE051EC33E5C007A9FA4 /* MyTileSetOne.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyTileSetOne.sks; sourceTree = "<group>"; };
+		9B2BAE071EC33EAD007A9FA4 /* MyTileSetOne.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyTileSetOne.sks; sourceTree = "<group>"; };
+		9B2BAE081EC33EAD007A9FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B53CC451EC4A41A009A055E /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		9B53CC471EC4A53C009A055E /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		9B7148741EC9F3E4003582EC /* TileSetLevel00.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TileSetLevel00.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2272222C1EB0382C004470FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		225036C01ECD375E00B59019 /* SamomoWalk.atlas */ = {
+			isa = PBXGroup;
+			children = (
+				225036E51ECD379000B59019 /* Samomo-Walk-back-1.png */,
+				225036E61ECD379000B59019 /* Samomo-Walk-back-2.png */,
+				225036E71ECD379000B59019 /* Samomo-Walk-back-3.png */,
+				225036E81ECD379000B59019 /* Samomo-Walk-back-4.png */,
+				225036E91ECD379000B59019 /* Samomo-Walk-back-5.png */,
+				225036EA1ECD379000B59019 /* Samomo-Walk-back-6.png */,
+				225036D91ECD378900B59019 /* Samomo-Walk-front-1.png */,
+				225036DA1ECD378900B59019 /* Samomo-Walk-front-2.png */,
+				225036DB1ECD378900B59019 /* Samomo-Walk-front-3.png */,
+				225036DC1ECD378900B59019 /* Samomo-Walk-front-4.png */,
+				225036DD1ECD378900B59019 /* Samomo-Walk-front-5.png */,
+				225036DE1ECD378900B59019 /* Samomo-Walk-front-6.png */,
+				225036C11ECD377600B59019 /* Samomo-Walk-Right-1.png */,
+				225036C21ECD377600B59019 /* Samomo-Walk-Right-2.png */,
+				225036C31ECD377600B59019 /* Samomo-Walk-Right-3.png */,
+				225036C41ECD377600B59019 /* Samomo-Walk-Right-4.png */,
+				225036C51ECD377600B59019 /* Samomo-Walk-Right-5.png */,
+				225036C61ECD377600B59019 /* Samomo-Walk-Right-6.png */,
+				225036CD1ECD377F00B59019 /* Samomo-Walk-Left-1.png */,
+				225036CE1ECD377F00B59019 /* Samomo-Walk-Left-2.png */,
+				225036CF1ECD377F00B59019 /* Samomo-Walk-Left-3.png */,
+				225036D01ECD377F00B59019 /* Samomo-Walk-Left-4.png */,
+				225036D11ECD377F00B59019 /* Samomo-Walk-Left-5.png */,
+				225036D21ECD377F00B59019 /* Samomo-Walk-Left-6.png */,
+			);
+			name = SamomoWalk.atlas;
+			sourceTree = "<group>";
+		};
+		227222261EB0382C004470FA = {
+			isa = PBXGroup;
+			children = (
+				227222311EB0382C004470FA /* SpriteKit Game joystick */,
+				227222301EB0382C004470FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		227222301EB0382C004470FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2272222F1EB0382C004470FA /* SpriteKit Game joystick.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227222311EB0382C004470FA /* SpriteKit Game joystick */ = {
+			isa = PBXGroup;
+			children = (
+				225036C01ECD375E00B59019 /* SamomoWalk.atlas */,
+				2272228B1EB0451B004470FA /* SamomoStand.atlas */,
+				227222321EB0382C004470FA /* AppDelegate.swift */,
+				227222361EB0382C004470FA /* Actions.sks */,
+				227222381EB0382C004470FA /* GameScene.swift */,
+				2272223A1EB0382C004470FA /* GameViewController.swift */,
+				2272223C1EB0382C004470FA /* Main.storyboard */,
+				227222411EB0382C004470FA /* LaunchScreen.storyboard */,
+				227222441EB0382C004470FA /* Info.plist */,
+				227222581EB03DA2004470FA /* JDGamePaddle.swift */,
+				227222891EB044FE004470FA /* Samomo.swift */,
+				9B2BAE071EC33EAD007A9FA4 /* MyTileSetOne.sks */,
+				9B2BAE081EC33EAD007A9FA4 /* Assets.xcassets */,
+				9B53CC451EC4A41A009A055E /* MyScene.sks */,
+				9B53CC471EC4A53C009A055E /* Direction.swift */,
+			);
+			path = "SpriteKit Game joystick";
+			sourceTree = "<group>";
+		};
+		2272228B1EB0451B004470FA /* SamomoStand.atlas */ = {
+			isa = PBXGroup;
+			children = (
+				9B2BAE051EC33E5C007A9FA4 /* MyTileSetOne.sks */,
+				22303A0E1ECCC7A000B9D186 /* Samomo-stand-Back-1.png */,
+				22303A0F1ECCC7A000B9D186 /* Samomo-stand-Back-2.png */,
+				22303A101ECCC7A000B9D186 /* Samomo-stand-Back-3.png */,
+				22303A111ECCC7A000B9D186 /* Samomo-stand-Back-4.png */,
+				22303A121ECCC7A000B9D186 /* Samomo-stand-Front-1.png */,
+				22303A131ECCC7A000B9D186 /* Samomo-stand-Front-2.png */,
+				22303A141ECCC7A000B9D186 /* Samomo-stand-Front-3.png */,
+				22303A151ECCC7A000B9D186 /* Samomo-stand-Front-4.png */,
+				22303A161ECCC7A000B9D186 /* Samomo-stand-left-1.png */,
+				22303A171ECCC7A000B9D186 /* Samomo-stand-left-2.png */,
+				22303A181ECCC7A000B9D186 /* Samomo-stand-left-3.png */,
+				22303A191ECCC7A000B9D186 /* Samomo-stand-left-4.png */,
+				22303A1A1ECCC7A000B9D186 /* Samomo-stand-Right-1.png */,
+				22303A1B1ECCC7A000B9D186 /* Samomo-stand-Right-2.png */,
+				22303A1C1ECCC7A000B9D186 /* Samomo-stand-Right-3.png */,
+				22303A1D1ECCC7A000B9D186 /* Samomo-stand-Right-4.png */,
+				225F96121EB5A43100AC891B /* tree.png */,
+				225F960C1EB59C3600AC891B /* Samomo-Front-tail.png */,
+				9B7148741EC9F3E4003582EC /* TileSetLevel00.sks */,
+			);
+			name = SamomoStand.atlas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2272222E1EB0382C004470FA /* SpriteKit Game joystick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227222471EB0382C004470FA /* Build configuration list for PBXNativeTarget "SpriteKit Game joystick" */;
+			buildPhases = (
+				2272222B1EB0382C004470FA /* Sources */,
+				2272222C1EB0382C004470FA /* Frameworks */,
+				2272222D1EB0382C004470FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpriteKit Game joystick";
+			productName = "SpriteKit Game joystick";
+			productReference = 2272222F1EB0382C004470FA /* SpriteKit Game joystick.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		227222271EB0382C004470FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "HSIAO JENHAO";
+				TargetAttributes = {
+					2272222E1EB0382C004470FA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 982ZFCY4EE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2272222A1EB0382C004470FA /* Build configuration list for PBXProject "SpriteKit Game joystick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 227222261EB0382C004470FA;
+			productRefGroup = 227222301EB0382C004470FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2272222E1EB0382C004470FA /* SpriteKit Game joystick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2272222D1EB0382C004470FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225036CC1ECD377600B59019 /* Samomo-Walk-Right-6.png in Resources */,
+				225036D51ECD377F00B59019 /* Samomo-Walk-Left-3.png in Resources */,
+				22303A221ECCC7A000B9D186 /* Samomo-stand-Front-1.png in Resources */,
+				225036E21ECD378900B59019 /* Samomo-Walk-front-4.png in Resources */,
+				225036EB1ECD379000B59019 /* Samomo-Walk-back-1.png in Resources */,
+				22303A231ECCC7A000B9D186 /* Samomo-stand-Front-2.png in Resources */,
+				22303A241ECCC7A000B9D186 /* Samomo-stand-Front-3.png in Resources */,
+				225036E11ECD378900B59019 /* Samomo-Walk-front-3.png in Resources */,
+				22303A2B1ECCC7A000B9D186 /* Samomo-stand-Right-2.png in Resources */,
+				22303A261ECCC7A000B9D186 /* Samomo-stand-left-1.png in Resources */,
+				225036C71ECD377600B59019 /* Samomo-Walk-Right-1.png in Resources */,
+				9B53CC461EC4A41A009A055E /* MyScene.sks in Resources */,
+				22303A271ECCC7A000B9D186 /* Samomo-stand-left-2.png in Resources */,
+				22303A291ECCC7A000B9D186 /* Samomo-stand-left-4.png in Resources */,
+				225F96131EB5A43100AC891B /* tree.png in Resources */,
+				225036DF1ECD378900B59019 /* Samomo-Walk-front-1.png in Resources */,
+				225036EE1ECD379000B59019 /* Samomo-Walk-back-4.png in Resources */,
+				225036D81ECD377F00B59019 /* Samomo-Walk-Left-6.png in Resources */,
+				22303A1F1ECCC7A000B9D186 /* Samomo-stand-Back-2.png in Resources */,
+				22303A1E1ECCC7A000B9D186 /* Samomo-stand-Back-1.png in Resources */,
+				225036C81ECD377600B59019 /* Samomo-Walk-Right-2.png in Resources */,
+				9B2BAE091EC33EAD007A9FA4 /* MyTileSetOne.sks in Resources */,
+				9B2BAE061EC33E5C007A9FA4 /* MyTileSetOne.sks in Resources */,
+				225F96111EB59C3600AC891B /* Samomo-Front-tail.png in Resources */,
+				2272223E1EB0382C004470FA /* Main.storyboard in Resources */,
+				225036C91ECD377600B59019 /* Samomo-Walk-Right-3.png in Resources */,
+				225036EF1ECD379000B59019 /* Samomo-Walk-back-5.png in Resources */,
+				225036D71ECD377F00B59019 /* Samomo-Walk-Left-5.png in Resources */,
+				227222431EB0382C004470FA /* LaunchScreen.storyboard in Resources */,
+				225036CB1ECD377600B59019 /* Samomo-Walk-Right-5.png in Resources */,
+				225036E41ECD378900B59019 /* Samomo-Walk-front-6.png in Resources */,
+				225036D61ECD377F00B59019 /* Samomo-Walk-Left-4.png in Resources */,
+				22303A201ECCC7A000B9D186 /* Samomo-stand-Back-3.png in Resources */,
+				227222371EB0382C004470FA /* Actions.sks in Resources */,
+				225036F01ECD379000B59019 /* Samomo-Walk-back-6.png in Resources */,
+				225036EC1ECD379000B59019 /* Samomo-Walk-back-2.png in Resources */,
+				9B7148751EC9F3E4003582EC /* TileSetLevel00.sks in Resources */,
+				22303A211ECCC7A000B9D186 /* Samomo-stand-Back-4.png in Resources */,
+				225036D31ECD377F00B59019 /* Samomo-Walk-Left-1.png in Resources */,
+				225036E01ECD378900B59019 /* Samomo-Walk-front-2.png in Resources */,
+				225036D41ECD377F00B59019 /* Samomo-Walk-Left-2.png in Resources */,
+				22303A251ECCC7A000B9D186 /* Samomo-stand-Front-4.png in Resources */,
+				22303A281ECCC7A000B9D186 /* Samomo-stand-left-3.png in Resources */,
+				9B2BAE0A1EC33EAD007A9FA4 /* Assets.xcassets in Resources */,
+				225036ED1ECD379000B59019 /* Samomo-Walk-back-3.png in Resources */,
+				225036CA1ECD377600B59019 /* Samomo-Walk-Right-4.png in Resources */,
+				225036E31ECD378900B59019 /* Samomo-Walk-front-5.png in Resources */,
+				22303A2D1ECCC7A000B9D186 /* Samomo-stand-Right-4.png in Resources */,
+				22303A2A1ECCC7A000B9D186 /* Samomo-stand-Right-1.png in Resources */,
+				22303A2C1ECCC7A000B9D186 /* Samomo-stand-Right-3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2272222B1EB0382C004470FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2272228A1EB044FE004470FA /* Samomo.swift in Sources */,
+				227222391EB0382C004470FA /* GameScene.swift in Sources */,
+				2272223B1EB0382C004470FA /* GameViewController.swift in Sources */,
+				227222331EB0382C004470FA /* AppDelegate.swift in Sources */,
+				227222591EB03DA3004470FA /* JDGamePaddle.swift in Sources */,
+				9B53CC481EC4A53C009A055E /* Direction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2272223C1EB0382C004470FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2272223D1EB0382C004470FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		227222411EB0382C004470FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227222421EB0382C004470FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		227222451EB0382C004470FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		227222461EB0382C004470FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		227222481EB0382C004470FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 982ZFCY4EE;
+				INFOPLIST_FILE = "SpriteKit Game joystick/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jenaho.SpriteKit-Game-joystick";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		227222491EB0382C004470FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 982ZFCY4EE;
+				INFOPLIST_FILE = "SpriteKit Game joystick/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jenaho.SpriteKit-Game-joystick";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2272222A1EB0382C004470FA /* Build configuration list for PBXProject "SpriteKit Game joystick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227222451EB0382C004470FA /* Debug */,
+				227222461EB0382C004470FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227222471EB0382C004470FA /* Build configuration list for PBXNativeTarget "SpriteKit Game joystick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227222481EB0382C004470FA /* Debug */,
+				227222491EB0382C004470FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 227222271EB0382C004470FA /* Project object */;
+}
